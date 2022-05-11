@@ -1,0 +1,31 @@
+.buttonbox{
+   
+    width:60%;
+    margin:auto;
+    margin-bottom: 10px;
+    
+
+}
+
+.button{
+    background-color: rgb(75, 11, 11);
+    width:100%;
+    color:white;
+    border:none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family:monospace;
+    font-weight: bold;
+    padding:6px;
+}
+
+
+.rojo1{
+    background-color: rgb(75, 11, 11);
+
+}
+
+.rojo2{
+    background-color: rgb(230, 26, 26);
+
+}
