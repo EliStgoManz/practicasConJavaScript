@@ -5,6 +5,7 @@
 class miClase{
     //creamos el constructor de la clase
     constructor(primero,segundo){
+        //atributos
         this.uno=primero;
         this.dos=segundo;
         this.tres="Hola a todos";
@@ -25,7 +26,14 @@ class miClase{
     };
 };
 
-//crear un objeto en base a una clase(instanciar una clase)
-var objetoUno=new miClase("Elí",77777);
-//recuperar los datos que he instanciado
-objetoUno.miMetodoDos("soy Elí",1994);
+//observaremos el tema de herencia
+class miClaseDos extends miClase{
+    constructor(uno,dos,cuarto){
+        super(uno,dos);
+        this.cuatro=cuarto;
+    };
+};
+
+var ObjetoTres=new miClaseDos("Elí","Oaxaca de juaréz",1994);
+document.write( ObjetoTres.dos );
+
